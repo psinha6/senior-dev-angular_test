@@ -1,0 +1,29 @@
+<div class="login-page height-100">
+  <div id="container"
+       class="container-fluid bg-white">
+    <section id="content">
+      <div class="row brand-color-primary">
+        <div class="col-sm-4 col-sm-offset-4 text-center logo-login">
+          <a href="https://www.riverty.com/en/">
+            <img alt="riverty"
+                 src="https://www.bertelsmann.de/media/news-und-media/bilder-news-und-pms/2022/221004-arvato-riverty/221004-riverty_teaser_2_3_lt_768_retina.jpg">
+          </a>
+        </div>
+      </div>
+
+      <div class="row row-login-form row-dark">
+        <div class="container container-hack">
+          <div class="col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+            Progress:
+            <mat-progress-bar mode="determinate" [value]="status$ | async"></mat-progress-bar>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer-login text-center bg-white">
+      <img src="assets/cheetah-face.png"
+           class="img-responsive">
+    </div>
+  </div>
+
+</div>
